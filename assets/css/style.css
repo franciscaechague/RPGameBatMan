@@ -1,0 +1,103 @@
+
+
+body {
+	background-image: url(../images/batmanBG.jpg);
+	background-repeat: no-repeat;
+	background-color: black;
+	font-family: "Roboto", sans-serif;
+	color: #A4A19F;
+}
+
+
+header {
+	position: relative;
+	text-align: center;
+	margin: 90px 70px 40px 70px;
+	color: black;
+	font-size: 3.5em;
+	font-weight: 600;
+	left: 20px;
+}
+
+img {
+	height: 150px;
+	width: 150px;
+}
+
+
+.chose {
+	float: left;
+	margin-top: 40px;
+	position: relative;
+	text-align: center;
+	font-weight: 100;
+}
+
+.userPick {
+	float: left;
+	margin: 10px;
+	text-align: center;
+	position: relative;
+	left: 23%;
+}
+
+.gameBoard {
+	margin-top: 20px;
+	clear: both;
+	text-align: center;
+	width: 100%;
+	height: 250px;
+}
+
+.player {
+	clear: both;
+	text-align: center;
+	height: 200px;
+	margin: 10px;
+
+}
+
+.userPick.playerChoice {
+	clear: both;
+	margin-top: 10px;
+	position: relative;
+	text-align: center;
+	left: 30px;
+}
+
+.userPick.opponentChoice {
+	clear: both;
+	margin-top: 10px;
+	position: relative;
+	text-align: center;
+	left: 30px;
+}
+
+button {
+	position: relative;
+	left: 45%;
+	text-align: center;
+	color: black;
+	margin-top: 20px;
+}
+
+#attack {
+	position: relative;
+	margin: 70px;
+}
+
+#loseGif {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top:0;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:auto;
+    margin-bottom:auto;
+    width: 0%;
+    height: 0%;
+    background-color: red;
+}
+
